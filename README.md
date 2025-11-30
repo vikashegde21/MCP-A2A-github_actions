@@ -41,7 +41,7 @@ The core components are:
 - A **GitHub Personal Access Token** with `repo` scope (or at least `contents:write` and `actions:read`).
 - An `.env` file at the project root containing:
   ```
-  GITHUB_TOKEN=your_token_here
+  GITHUB_TOKEN=your_GITHUB_TOKEN_token_here
   OPENAI_API_KEY=your_openai_key_if_using_openai_models
   ```
 
@@ -49,7 +49,7 @@ The core components are:
 
 ```bash
 # Clone the repo
-git clone https://github.com/yourusername/MCP-A2A-GA.git
+git clone https://github.com/vikashegde21/MCP-A2A-GA.git
 cd MCP-A2A-GA/devops-agent-system
 
 # Install dependencies using uv
@@ -102,3 +102,4 @@ Feel free to open issues or submit pull requests. Please ensure that any new too
 ## License
 
 MIT License – see `LICENSE` file.
+
