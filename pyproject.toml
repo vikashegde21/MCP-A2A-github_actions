@@ -1,0 +1,14 @@
+[project]
+name = "devops-agent-system"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "azure-ai-inference>=1.0.0b9",
+    "httpx>=0.28.1",
+    "mcp>=1.22.0",
+    "openai>=2.8.1",
+    "pydantic>=2.12.5",
+    "python-dotenv>=1.2.1",
+]
